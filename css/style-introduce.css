@@ -222,13 +222,13 @@
     font-size: 14px;
   }
   .icon{
-    width: 1200px;
     margin: 0 auto;
     display: flex;
     
     justify-content: flex-end;
   }
   .icon img{
+    margin-top: 90px;
     width: 42px;
     height: 42px;
     margin-left: 22px;

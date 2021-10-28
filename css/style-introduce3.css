@@ -199,7 +199,11 @@ color: white;
   
   .footer-box-ul li{
     padding: 0 28px;
-    border-right: 1px solid #777777;
+  }
+  .footer-box-ul span{
+      margin-top: 5px;
+      height: 16px;
+      border: 1px solid #888888;
   }
   
   .footer-box-ul li:first-child{
@@ -224,13 +228,13 @@ color: white;
     font-size: 14px;
   }
   .icon{
-    width: 1200px;
     margin: 0 auto;
     display: flex;
     
     justify-content: flex-end;
   }
   .icon img{
+    margin-top: 90px;                  
     width: 42px;
     height: 42px;
     margin-left: 22px;

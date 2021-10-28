@@ -10,7 +10,7 @@ $(function(){
      $('.slider .sliders')
      .css('margin-left', x)
     
-     },3000)
+     },5000)
     
 })
 

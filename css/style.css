@@ -252,7 +252,7 @@ body {
 #contents-2 .contents2-1-box{
     width: 681px;
     height: 226px;
-    background: #FFD553;
+    background: #ffe69d;
     border-radius: 30px;
     display: flex;
     position: relative;
@@ -281,7 +281,7 @@ body {
     border-radius: 30px;
     border:none;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin-top: 46px;
     position: absolute;
@@ -295,6 +295,12 @@ body {
     margin-right: 10px;
 }
 
+#contents-2 .contents2-1-box .button1:hover{
+    background: var(--sub-color);
+}
+#contents-2 .contents2-1-box .button2:hover{
+    background: var(--sub-color);
+}
 #contents-2 .contents2-1-box .button2{
     width: 178px;
     height: 60px;
@@ -302,9 +308,9 @@ body {
     border-radius: 30px;
     border:none;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-    margin-top: 128px;
+    margin-top: 130px;
     position: absolute;
     right: 14px;
     cursor: pointer;
@@ -313,6 +319,7 @@ body {
     width: 24px;
     height: 28px;
     margin-right: 10px;
+    vertical-align: -18%;
 }
 
 .contents2-1-button{
@@ -337,14 +344,14 @@ body {
 .contents2-2 .contents2-2-box .search-button {
     border:none;
     width: 409px;
-    height: 38px;
+    height: 50px;
     background: var(--sub-color);
     color:#fff;
     text-align: center;
     border-radius: 30px;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .contents2-2 .contents2-2-box .search-button img{
@@ -354,8 +361,8 @@ body {
 }
 
 .contents2-2-box .select-1{
-    width: 215px;
-    height: 28px;
+    width: 220px;
+    height: 40px;
     background: #fff;
     border:none;
     border-radius: 10px;
@@ -363,7 +370,7 @@ body {
 
 .contents2-2-box .select-2{
     width: 106px;
-    height: 28px;
+    height: 40px;
     background: #fff;
     border:none;
     border-radius: 10px;
@@ -672,7 +679,11 @@ footer{
   
   .footer-box-ul li{
     padding: 0 28px;
-    border-right: 1px solid #777777;
+  }
+  .footer-box-ul span{
+      margin-top: 5px;
+      height: 16px;
+      border: 1px solid #888888;
   }
   
   .footer-box-ul li:first-child{
@@ -697,14 +708,19 @@ footer{
     font-size: 14px;
   }
   .icon{
-    width: 1200px;
     margin: 0 auto;
     display: flex;
-    
     justify-content: flex-end;
   }
   .icon img{
+      
+    margin-top: 90px;
     width: 42px;
     height: 42px;
     margin-left: 22px;
+  }
+
+  .swiper .swiper-wrapper .swiper-slide img{
+      width: 100%;
+      transition: 5s;
   }
